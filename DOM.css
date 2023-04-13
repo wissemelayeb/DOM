@@ -1,0 +1,85 @@
+h1 {
+text-align: center;
+font-size: 3em;
+}
+
+/* Style for the table */
+table {
+width: 100%;
+border-collapse: collapse;
+margin: 20px auto;
+}
+
+/* Style for the table header */
+thead {
+background-color: #f2f2f2;
+}
+
+/* Style for the table header cells */
+th {
+padding: 10px;
+text-align: center;
+font-weight: bold;
+}
+
+/* Style for even rows in the table body */
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+/* Style for table cells in the body */
+td {
+padding: 10px;
+text-align: center;
+}
+
+/* Style for the action buttons */
+td.actions {
+display: flex; /* Use flexbox to align the buttons horizontally */
+justify-content: space-between; /* Add equal space between the buttons */
+align-items: center; /* Center the buttons vertically */
+}
+
+/* Style for the like button */
+.like {
+border: none;
+background-color: transparent;
+font-size: 1.5em;
+cursor: pointer;
+color: #ccc;
+}
+
+/* Style for the like button when it's active */
+.like.active {
+color: #ff69b4;
+}
+
+/* Style for the delete button */
+.delete {
+border: none;
+background-color: transparent;
+font-size: 1.5em;
+cursor: pointer;
+color: #ccc;
+}
+
+/* Style for the delete button when it's hovered */
+.delete:hover {
+color: #f00;
+}
+
+/* Style for the quantity buttons */
+.quantity button {
+border: none;
+background-color: transparent;
+font-size: 1em;
+cursor: pointer;
+color: #333;
+}
+
+/* Style for the quantity count */
+.quantity .count {
+font-size: 1.2em;
+font-weight: bold;
+}
+
