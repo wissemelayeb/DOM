@@ -7,6 +7,8 @@
 </head>
 <body>
 <h1>Shopping Cart</h1>
+
+<!-- Table for the shopping cart -->
 <table id="cart">
 <thead>
 <tr>
@@ -18,50 +20,60 @@
 </tr>
 </thead>
 <tbody>
+<!-- First product row -->
 <tr>
 <td class="product">Product 1</td>
 <td class="price">$10</td>
 <td class="quantity">
+<!-- Quantity section with decrease and increase buttons -->
 <button class="decrease">-</button>
 <span class="count">1</span>
 <button class="increase">+</button>
 </td>
 <td class="total">$10</td>
 <td class="actions">
+<!-- Like and delete buttons -->
 <button class="like">&#9825;</button>
 <button class="delete">X</button>
 </td>
 </tr>
+<!-- Second product row -->
 <tr>
 <td class="product">Product 2</td>
 <td class="price">$20</td>
 <td class="quantity">
+<!-- Quantity section with decrease and increase buttons -->
 <button class="decrease">-</button>
 <span class="count">1</span>
 <button class="increase">+</button>
 </td>
 <td class="total">$20</td>
 <td class="actions">
+<!-- Like and delete buttons -->
 <button class="like">&#9825;</button>
 <button class="delete">X</button>
 </td>
 </tr>
+<!-- Third product row -->
 <tr>
 <td class="product">Product 3</td>
 <td class="price">$30</td>
 <td class="quantity">
+<!-- Quantity section with decrease and increase buttons -->
 <button class="decrease">-</button>
 <span class="count">1</span>
 <button class="increase">+</button>
 </td>
 <td class="total">$30</td>
 <td class="actions">
+<!-- Like and delete buttons -->
 <button class="like">&#9825;</button>
 <button class="delete">X</button>
 </td>
 </tr>
 </tbody>
 <tfoot>
+<!-- Table footer row for total -->
 <tr>
 <td colspan="3">Total:</td>
 <td id="total">$60</td>
@@ -69,6 +81,8 @@
 </tr>
 </tfoot>
 </table>
+
+<!-- JavaScript file for DOM manipulation -->
 <script src="DOM.JS"></script>
 </body>
 </html>
